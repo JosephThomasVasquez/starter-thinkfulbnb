@@ -9,6 +9,7 @@ h2 {
   font-weight: 400;
   margin: 0 10px 10px 10px;
   text-align: center;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -35,6 +36,12 @@ main img {
 }
 
 /* ---  Groups & Items --- */
+
+.input-fields {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 .group {
   display: flex;
@@ -125,3 +132,6 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+
+@media all and (min-width: 480px) {
+}
