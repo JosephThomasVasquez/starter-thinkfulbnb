@@ -145,6 +145,23 @@ footer p {
 /* -------  Media Query ------- */
 
 @media all and (min-width: 480px) {
+  /* -------  Navigation ------- */
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff385c;
+    padding: 10px 20px 0 20px;
+    text-align: center;
+    padding-bottom: 5px;
+  }
+
+  .logo {
+    font-family: "Pangolin", cursive;
+    font-size: 48px;
+    color: #fff;
+  }
+
   /* ------- Nav Menu ------- */
   nav #menu {
     display: flex;
