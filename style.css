@@ -6,7 +6,7 @@ body {
 
 h2 {
   font-size: 26px;
-  font-weight: 400;
+  font-weight: 600;
   margin: 0 10px 10px 10px;
   text-align: center;
   padding-bottom: 10px;
@@ -55,6 +55,10 @@ main img {
 
 .item-double {
   flex: 2;
+}
+
+.item img {
+  width: 100%;
 }
 
 /* -------  Navigation ------- */
