@@ -37,6 +37,13 @@ main img {
 
 /* ---  Groups & Items --- */
 
+.input-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
 .input-fields {
   display: flex;
   flex-direction: row;
@@ -138,4 +145,49 @@ footer p {
 /* -------  Media Query ------- */
 
 @media all and (min-width: 480px) {
+  /* ------- Nav Menu ------- */
+  nav #menu {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+  }
+
+  /* ---  Groups & Items --- */
+
+  .input-group {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .input-fields {
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    margin: 0 10px;
+  }
+
+  .input-fields button {
+  }
+
+  .group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .item {
+    flex: 1;
+    margin: 10px;
+  }
+
+  .item-double {
+    flex: 2;
+  }
+
+  .item img {
+    width: 100%;
+  }
 }
