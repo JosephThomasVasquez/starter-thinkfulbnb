@@ -192,6 +192,12 @@ footer p {
 
   .group {
     display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .second-group {
+    display: flex;
     flex-direction: column;
   }
 
@@ -204,7 +210,7 @@ footer p {
     flex: 2;
   }
 
-  .item img {
+  .item-double img {
     width: 100%;
   }
 }
